@@ -20,11 +20,11 @@ div{
 }
 
 div#calculator-body {
-    display: flex;
+    display: block;
     margin: auto;
     height: 100vh;
 }
 
 div#visor {
-    
+    width: 100vw;
 }
