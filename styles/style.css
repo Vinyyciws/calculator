@@ -20,11 +20,18 @@ div{
 }
 
 div#calculator-body {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin: auto;
-    height: 100vh;
 }
 
-div#visor {
-    width: 100vw;
+input {
+    flex: auto;
+    width: 50px;
+}
+
+input#iRes {
+    width: 155px;    
 }
